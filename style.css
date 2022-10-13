@@ -1,0 +1,161 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*-----------------------------------------------------------------*/
+/* Header */
+header{
+    display: flex;
+    width: 100%;
+    min-width: 1200px;
+    height: 69px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    flex-wrap: nowrap;
+
+}
+
+header img{
+    height: 50px;
+    margin-right: 830px;
+}
+
+.logo{
+    margin-right: 750px;
+}
+
+header nav{
+    white-space: nowrap;
+}
+
+a{
+    margin:10px;
+    color: seashell;
+
+}
+
+/*-----------------------------------------------------------------*/
+/* Banner */
+.banner{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 69px;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner_pic{
+    min-width: 1200px;
+    height: 700px;
+}
+
+.motto{
+
+    position: absolute;
+    width:1200px;
+    background-color: black;
+}
+/*-----------------------------------------------------------------*/
+/* Tea of the month */
+.tea_month{
+    display: inline-flex;
+    width: 1000px;
+    height: 700px;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    justify-content: center;
+    align-content: center;
+}
+
+.main_heading{
+    width: 100%;
+    margin: 10px;
+}
+
+.sub_heading{
+    width: 100%;
+    margin: 10px;
+
+}
+
+.description{
+    margin: 10px;
+}
+
+.tea_pics{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+
+}
+
+/*-----------------------------------------------------------------*/
+/* Locations */
+
+.locations_box{
+    display: flex;
+    position: relative;
+}
+
+.locations{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.locations h2{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.individual_locations{
+    opacity: 1;
+    width: 300px;
+    height: 100%;
+    background-color: black;
+    margin: 15px 20px;
+
+}
+
+.location_pic{
+    width: 1200px;
+    height: 500px;
+    background-image: url("Resources/img-locations-background.jpg");
+    background-position-y: 20%;
+}
+/*-----------------------------------------------------------------*/
+/* Contact */
+
+.contact{
+    height: 200px;
+}
+
+.contact h2{
+    margin-bottom: 69px;
+}
+
+/*-----------------------------------------------------------------*/
+/* Footer */
+.footer{
+    text-align: left;
+    min-width: 1250px;
+}
